@@ -1,0 +1,314 @@
+
+/*Style.scss*/
+
+/*------foundation variables------*/
+
+@import 'foundation';
+
+
+
+/* variables
+---------------------------------------------------------- */
+
+
+
+
+/*--- Colors ----*/
+$bodyBg:#A1F7B8;
+//$heroContainer:#38A052;
+$heroContainer:#A1F7B8;
+$heroInner:#fffffe;
+$logoColor:#38A053;
+$section2Text:#38A051;
+$grey-hover:#999;
+$flapColor:transparent;
+$countdownText:#5B665E;
+
+$bodyTextColor:#333333;
+
+$heroH1Color:#000000;
+
+
+
+$bodyFont:'merriweather', sans-serif;
+$heroH1Font:"MerriWeather","Arial Black", Verdana, "Droid Sans", sans-serif;
+$heroSubHeadFont: "Open Sans","droid Sans",Arial, sans-serif;
+
+/*--Hero Section--*/
+$heroHeight:inherit;
+$heroDarken1:rgba(0,0,0,0.5);
+$heroDarken2:rgba(0,0,0,0.5);
+$heroDarkenOpacity:50%;
+
+
+/*--hero section 2--*/
+$section2Border:#d8d8d8;
+
+
+/*--Buttons--*/
+$buttonColor:#FF7F00;
+$buttonBorder:#FF9B39;
+$buttonColorHover:#FF9B39;
+
+
+/* sitewide
+---------------------------------------------------------- */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+.row{
+	max-width: 550px;
+}
+.rowLg{
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+  .row{
+    max-width: calc(1000px);
+    margin: auto;
+  }
+}
+
+.clearfix:before,
+.site-container:before,
+.site-footer:before,
+.site-header:before,
+.section:before,
+.wrap:before {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after,
+.site-container:after,
+.site-footer:after,
+.site-header:after,
+.section:before,
+.wrap:after {
+	clear: both;
+	content: " ";
+	display: table;	
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	background: $bodyBg;
+	color: $bodyTextColor;
+	font-size: 18px;
+	font-family: $bodyFont;
+	text-align: center;
+	margin:auto;
+
+}
+
+p
+{
+	color: $bodyTextColor;
+	font-size: 18px;
+	font-family: $bodyFont;
+}
+
+.cb{
+	clear:both;
+}
+
+/*---- Header ---*/
+.header{
+	background-color: $heroContainer;
+}
+
+
+
+
+
+
+.img-position{
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	height: inherit;
+	width: 100%;
+	}
+
+
+.zplus{
+	z-index: 100;
+	height: inherit;
+}
+
+.darken{
+	background-image: linear-gradient($heroDarken1,$heroDarken2);
+	height: inherit;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.logoColor{
+	color:$logoColor;
+}
+
+
+
+/* Countdown Timer Styles */
+.countdown {
+    padding: 0;
+    margin: 0;
+    list-style: none !important;
+    display: inline-block !important;  
+    font-weight: 300 !important;
+    font-family: $heroSubHeadFont;
+    p{
+      font-size: calc(20px)!important;
+      font-weight: 300 !important;
+      color: #000000;
+    font-family: $heroSubHeadFont;
+    }
+  
+ li {
+    float: left;
+    text-align: center;
+    margin: 0 5px !important;
+    color: $countdownText;
+
+
+      span {
+      //width: 160px!important;
+      display: inline-block;
+      
+      font-weight: 300!important;
+      font-size: calc(45px)!important;
+      line-height: 32px !important;
+      position: relative;
+      text-align: center;
+      }
+      p{
+        color:$countdownText;
+        display: block !important;
+        text-transform: none;
+        width: 100% !important;
+        line-height: inherit !important;
+        font-family: $heroSubHeadFont;
+
+      }
+
+      .flap{
+      	background: $flapColor;
+      	padding-top: 10px;
+      	padding-bottom:10px;
+      }
+
+    }
+}
+
+
+/*--Button--*/
+.newButton{
+	background: $buttonColor;
+	font-size: 30px !important;
+	font-family: $heroSubHeadFont;
+	border:2px solid $buttonBorder;
+	border-radius: 3px;
+
+	&:hover{
+		background: $buttonColorHover;
+	}
+}
+
+
+
+
+
+/*--- Hero ---*/
+.heroContainer{
+ background-size: cover;
+ height: $heroHeight;
+ background-color: $heroContainer;
+
+}
+
+.heroPosition{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.heroInner{
+	background: $heroInner;
+	 border-radius: calc(3px);
+	 box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+
+	
+}
+
+.heroHeadline{
+	margin-top: 10px;
+}
+
+.heroH1{
+  font-size: 40px; 
+  font-family: $heroH1Font;
+  font-weight: 900;
+  color: $heroH1Color;
+  text-align: center;
+  z-index:3;
+  letter-spacing: -2px;
+  line-height: 75px;
+}
+
+.heroSubhead1{
+font-family: $heroSubHeadFont;
+font-size: 30px;
+line-height:35px;
+}
+
+.heroSubhead2Wrap{
+	background-color: #EDFBEC;
+	padding:5px;
+}
+
+.heroSubhead2{
+font-family: $heroSubHeadFont;
+}
+
+
+
+/*--- hero section2--*/
+.heroSection2Inner{
+	//border-bottom: 1px solid $section2Border;
+	//border-top: 1px solid $section2Border;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.section2Text{
+	color:$section2Text;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/*--Footer--*/
+.footer{
+	//height: 40px;
+}
+
+
+
+
+/*Style.scss*/
+
+@import 'mediumscreen';
+@import 'largescreen';
+@import 'XLargecreen'
