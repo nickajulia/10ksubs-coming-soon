@@ -1021,83 +1021,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/leadpages-template\/img\/bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.59003e+06,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/bg.jpg",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/bg1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.25754e+06,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/bg1.jpg",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/bg1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/bg2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.82644e+06,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/bg2.jpg",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/bg2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/bg3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.57012e+06,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/bg3.jpg",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/bg3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/bg4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 275858,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/bg4.jpg",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/bg4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/bg5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.87587e+07,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/bg5.jpg",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/bg5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/hammer1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.93503e+06,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/hammer1.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/hammer1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/leadpages-template\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1124,17 +1047,6 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/leadpages-template\/js\/html5shiv.js",
 		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/html5shiv-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/leadpages-template\/js\/min\/functions-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/leadpages-template\/js\/min\/functions-min.js",
-		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/min\/functions-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

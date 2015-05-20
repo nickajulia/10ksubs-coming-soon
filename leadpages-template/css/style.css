@@ -6881,7 +6881,7 @@ img {
   max-width: 100%; }
 
 body {
-  background: #A1F7B8;
+  background: #50CF71;
   color: #333333;
   font-size: 18px;
   font-family: "merriweather", sans-serif;
@@ -6898,7 +6898,7 @@ p {
 
 /*---- Header ---*/
 .header {
-  background-color: #A1F7B8; }
+  background-color: #50CF71; }
 
 .img-position {
   position: absolute;
@@ -6931,7 +6931,7 @@ p {
   font-weight: 300 !important;
   font-family: "Open Sans", "droid Sans", Arial, sans-serif; }
   .countdown p {
-    font-size: calc(20px) !important;
+    font-size: calc(18px) !important;
     font-weight: 300 !important;
     color: #000000;
     font-family: "Open Sans", "droid Sans", Arial, sans-serif; }
@@ -6942,8 +6942,9 @@ p {
     color: #5B665E; }
     .countdown li span {
       display: inline-block;
+      color: #5B665E !important;
       font-weight: 300 !important;
-      font-size: calc(45px) !important;
+      font-size: calc(40px) !important;
       line-height: 32px !important;
       position: relative;
       text-align: center; }
@@ -6953,7 +6954,8 @@ p {
       text-transform: none;
       width: 100% !important;
       line-height: inherit !important;
-      font-family: "Open Sans", "droid Sans", Arial, sans-serif; }
+      font-family: "Open Sans", "droid Sans", Arial, sans-serif;
+      margin-bottom: 0; }
     .countdown li .flap {
       background: transparent;
       padding-top: 10px;
@@ -6961,19 +6963,19 @@ p {
 
 /*--Button--*/
 .newButton {
-  background: #FF7F00;
+  background: #FF1E00;
   font-size: 30px !important;
   font-family: "Open Sans", "droid Sans", Arial, sans-serif;
-  border: 2px solid #FF9B39;
+  border: 2px solid #FF5039;
   border-radius: 3px; }
   .newButton:hover {
-    background: #FF9B39; }
+    background: #FF5038; }
+  .newButton:focus {
+    background: #FF5038; }
 
 /*--- Hero ---*/
 .heroContainer {
-  background-size: cover;
-  height: inherit;
-  background-color: #A1F7B8; }
+  background-color: #50CF71; }
 
 .heroPosition {
   margin-top: 5%;

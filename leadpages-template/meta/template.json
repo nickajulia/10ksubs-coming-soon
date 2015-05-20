@@ -1,18 +1,48 @@
 {
-	"id": "Get the Guide",
-	"name": "Get the Guide", 
+	"id": "10k subs coming soon",
+	"name": "10k subs coming soon", 
 	"mobile": true, 
-	"notes": "version 1.101", 
+	"notes": "version 1.004", 
 	"syntax": 4, 
-	"version": 1.101,
+	"version": 1.004,
 	"style": {
 		"html": "",
 		"replacements": [
 
         {
               "type": "color",
-              "name": "Header Background Overlay Color",
-              "find": "#00000A"
+              "name": "Body Bg Color",
+              "find": "#50CF71"
+          },
+          {
+              "type": "color",
+              "name": "form bg color",
+              "find": "#fffffe"
+          },
+            {
+              "type": "color",
+              "name": "subhead bg color",
+              "find": "#EDFBEC"
+          },
+          {
+              "type": "color",
+              "name": "button color",
+              "find": "#FF1E00"
+          },
+          {
+              "type": "color",
+              "name": "button border color",
+              "find": "#FF5039"
+          },
+            {
+              "type": "color",
+              "name": "button hover color",
+              "find": "#FF5038"
+          },
+           {
+              "type": "color",
+              "name": "Countdown Numbers color",
+              "find": "#5B665E"
           }
 
 		                ]
@@ -51,53 +81,74 @@
 	"elements": [
 		
         {
-      "id": "site-header",
-      "name": "Header Container",
+      "id": "heroInner",
+      "name": "Form container",
       "type": "container"
         },
-       
-      
+         {
+      "id": "heroSection2",
+      "name": "section2 container",
+      "type": "container"
+        },
+         {
+      "id": "section3",
+      "name": "section3 container",
+      "type": "container"
+        },
+
 
 
 
 
         {
-      "id": "heroTitle",
-      "name": "Hero Title",
+      "id": "heroH1",
+      "name": "Logo Text",
       "type": "text"
         },
-    
-     
+         {
+      "id": "heroSubhead1",
+      "name": "Headline Text",
+      "type": "text"
+        },
+          {
+      "id": "heroSubhead2",
+      "name": "Subhead Text",
+      "type": "text"
+        },
+         {
+      "id": "section2Text",
+      "name": "Above timer Text",
+      "type": "text"
+        },
 
-
-
-        
         {
-      "id": "footerLink5",
-      "name": "Footer Link5",
+      "id": "days-text",
+      "name": "Days Text",
+      "type": "text"
+        },
+        {
+      "id": "minutes-text",
+      "name": "Minutes Text",
+      "type": "text"
+        },
+        {
+      "id": "seconds-text",
+      "name": "Seconds Text",
+      "type": "text"
+        },
+
+         {
+      "id": "button1",
+      "name": "Button Link",
       "type": "link"
         },
 
 
 
-
-
          {
-      "id": "header-bg",
-      "name": "Header Background",
-      "type": "image"
-        },
-           
-
-
-
-
-
-
-        {
-      "id": "section1LeftVideo",
-      "name": "Section 1 Video",
-      "type": "video"
+      "id": "countdown",
+      "name": "Countdown Timer",
+      "type": "countdown"
         }
 
 

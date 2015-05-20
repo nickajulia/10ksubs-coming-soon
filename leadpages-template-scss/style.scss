@@ -14,9 +14,9 @@
 
 
 /*--- Colors ----*/
-$bodyBg:#A1F7B8;
+$bodyBg:#50CF71;
 //$heroContainer:#38A052;
-$heroContainer:#A1F7B8;
+$heroContainer:#50CF71;
 $heroInner:#fffffe;
 $logoColor:#38A053;
 $section2Text:#38A051;
@@ -46,9 +46,9 @@ $section2Border:#d8d8d8;
 
 
 /*--Buttons--*/
-$buttonColor:#FF7F00;
-$buttonBorder:#FF9B39;
-$buttonColorHover:#FF9B39;
+$buttonColor:#FF1E00;
+$buttonBorder:#FF5039;
+$buttonColorHover:#FF5038;
 
 
 /* sitewide
@@ -172,7 +172,7 @@ p
     font-weight: 300 !important;
     font-family: $heroSubHeadFont;
     p{
-      font-size: calc(20px)!important;
+      font-size: calc(18px)!important;
       font-weight: 300 !important;
       color: #000000;
     font-family: $heroSubHeadFont;
@@ -188,9 +188,9 @@ p
       span {
       //width: 160px!important;
       display: inline-block;
-      
+      color:$countdownText !important;
       font-weight: 300!important;
-      font-size: calc(45px)!important;
+      font-size: calc(40px)!important;
       line-height: 32px !important;
       position: relative;
       text-align: center;
@@ -202,7 +202,7 @@ p
         width: 100% !important;
         line-height: inherit !important;
         font-family: $heroSubHeadFont;
-
+        margin-bottom:0;
       }
 
       .flap{
@@ -226,6 +226,10 @@ p
 	&:hover{
 		background: $buttonColorHover;
 	}
+
+	&:focus{
+	 background: $buttonColorHover;
+	}
 }
 
 
@@ -234,8 +238,8 @@ p
 
 /*--- Hero ---*/
 .heroContainer{
- background-size: cover;
- height: $heroHeight;
+ //background-size: cover;
+ //height: $heroHeight;
  background-color: $heroContainer;
 
 }
